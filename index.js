@@ -24,15 +24,6 @@ export default class Cl_main {
         Monto del sueldo: $${profesor1.sueldo}
         <br>
         Ingreso total del profesor ${profesor1.nombre}: $${profesor1.ingresoTotal()}
-        <br>
-        <br>
-        Nombre del profesor fijo: ${profesor2.nombre}
-        <br>
-        Monto del bono: $${profesor2.bono}
-        <br>
-        Monto del sueldo: $${profesor2.sueldo}
-        <br>
-        Ingreso total del profesor ${profesor2.nombre}: $${profesor2.ingresoTotal()}
     `;
   }
 }
